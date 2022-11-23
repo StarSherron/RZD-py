@@ -1,0 +1,125 @@
+@font-face {
+	font-family: RussoOne; /* Гарнитура шрифта */
+	src: url(css/RussoOne-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+body
+{
+  background: #282828;
+  color: white;
+}
+
+.RZDbg
+{
+position: absolute;
+width: 100%;
+top: 60px;
+left: -1px
+}
+
+.mobileRZDbg
+{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Logo
+{
+	width: 15%;
+	height: 15%;
+	margin-top: 15px;
+	margin-left: 10px;
+	
+}
+
+.leisure
+{
+  position: absolute;
+width: 235px;
+height: 210px;
+left: 561px;
+top: 250px;
+
+  background: url(../images/dosug.png) #C4151C center center no-repeat;
+  border: none;
+  color: white;
+  padding: 4px 4px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 4px;
+  cursor: pointer;
+  font-family: 'Russo One';font-size: 40px;
+}
+
+.charge
+{
+ position: absolute;
+width: 235px;
+height: 210px;
+left: 805px;
+top: 250px;
+
+
+
+  background: url(../images/charge.png) #FFFFFF center center no-repeat;
+  border: none;
+  color: #C4151C;
+  padding: 4px 4px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 4px;
+  cursor: pointer;
+  font-family: 'Russo One';font-size: 36.61px;
+}
+
+.baggage
+{
+  position: absolute;
+  width: 268px;
+  height: 440px;
+left: 1055px;
+top: 250px;
+
+  background: url(../images/baggage.png) #C4151C center center no-repeat;
+  border: none;
+  color: #FFFFFF;
+  text-align: top;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Russo One';font-size: 36.61px;
+  
+  
+}
+
+.baggagetext
+{
+  padding-top: 225px;
+}
+
+
+.navigation
+{
+  position: absolute;
+  width: 479px;
+  height: 210px;
+  left: 561px;
+  top: 480px;
+
+
+  background: url(../images/navigation.png) #FFFFFF center center no-repeat;
+  border: none;
+  color: #C4151C;
+  padding: 0px 80px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Russo One';font-size: 36.61px;
+  vertical-align: middle;
+}
