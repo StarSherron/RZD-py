@@ -14,37 +14,35 @@ Mobility(app)
 @app.route("/", methods=['GET', 'POST'])
 @mobile_template("{mobile/}index.html")
 def index(template):
-    if request.method == 'POST':
-        if request.form.get('leisurebtn'):
-            print("leisurepressed")
-        else:
-            pass
-    elif request.method == 'GET':
+    if request.method == 'GET':
         return render_template(template)
+    else:
+        #В дальнейшем понадобится, сейчас бесполезно.
+        pass
 
 
 @app.route('/leisure')
 def gotoleisure():
     print("leisure")
-    return "nothing"
+    return Null
 
 
 @app.route('/charge')
 def gotocharge():
     print("charge")
-    return "nothing"
+    return Null
 
 
 @app.route('/baggage')
 def gotobaggage():
     print("baggage")
-    return "nothing"
+    return Null
 
 
 @app.route('/navigation')
 def gotonavigation():
     print("navigation")
-    return "nothing"
+    return Null
 
 
 @app.errorhandler(404)
